@@ -566,6 +566,11 @@ body .results tbody td.reselect
 #map .kmldesc img	{ float: left; padding: 0 10px 5px 0; }
 #map .kmlhead	{ margin: 0; padding: 0 5px 10px; }
 
+/* Herkunftsorte */
+#map .logo-wide	{ display: none; }
+#map #nav		{ display: none; }
+
+
 /* Bilder */
 
 .left			{ float: left; padding: 0 0 .5em .5em; }
