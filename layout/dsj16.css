@@ -110,7 +110,7 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 #content	{ overflow: hidden; padding-bottom: 4em; text-align: center; }
 .text		{ padding: 1em .75em; line-height: 1.4; text-align: left; }
 @media screen and (max-width: 640px) {
-	#content	{ padding-bottom: 6em; }
+	#content	{ padding-bottom: 8em; }
 	#foot		{ bottom: .75em; background: white;
 				padding: 0; font-size: 90%; width: auto; left: 0; right: 0; }
 	#head		{ position: static; }
@@ -148,7 +148,7 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 .subnav	ul		{ margin: 0; padding: 0; }
 @media screen and (max-width: 640px) {
 	#breadcrumbs
-				{ position: absolute; bottom: 4em; margin: 0; left: .75em;
+				{ position: absolute; bottom: 5.5em; margin: 0; left: .75em;
 				text-align: center; right: .75em; }
 	.nav, #breadcrumbs
 				{ font-size: 90%; }
