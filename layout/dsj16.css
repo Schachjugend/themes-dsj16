@@ -501,9 +501,6 @@ input.geburt	{ width: 6em; }
 /* meldunglv.template.txt */
 input.hidden	{ display: none; }
 
-/* internal: Mails */
-/* zzbrick_tables/mails.php */
-.mail_empfaenger	{ font-style: italic; }
 
 /* internal: liveergebnisse */
 
