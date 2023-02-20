@@ -154,7 +154,15 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 				{ font-size: 90%; }
 	.subnav			{ text-align: center; padding: 0 .25em; }
 }
-
+@media screen and (max-width: 480px) {
+	#breadcrumbs
+				{ bottom: 7em; }
+}
+@media screen and (max-width: 360px) {
+	#breadcrumbs
+				{ bottom: 9em; }
+	#content	{ padding-bottom: 11em; }
+}
 
 @media print {
 	#foot, .nav, #breadcrumbs
