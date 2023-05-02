@@ -526,7 +526,7 @@ input.hidden	{ display: none; }
 /* internal: traffic ligths */
 
 /* zzbrick_tables/buchungen.php */
-/* zzbrick_tables/teilnahmen.php */
+/* zzbrick_tables/participations.php */
 .ja, .nein, .vielleicht, .teilweise, .befreit
 				{ float: left; width: 1em; height: 1em; border: 1px solid black; 
 				margin-right: .5em; }
