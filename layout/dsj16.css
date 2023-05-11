@@ -117,12 +117,8 @@ h2:target	{ background-color: yellow; padding-top: .5em;
 	.text		{ padding: 1em 0; }
 }
 
-.nobr			{ white-space: nowrap; }
-.abstract		{ font-size: 120%; line-height: 1.4; margin: 1em 0;
-				max-width: 45em; }
 @media screen and (max-width: 640px) {
 	.foot .dsj		{ display: none; }
-	.nobr			{ white-space: normal; }
 }
 
 .logo-top a:hover img
