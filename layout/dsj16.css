@@ -519,19 +519,6 @@ input.hidden	{ display: none; }
 				{ font-weight: bold; border-bottom: 1px solid black;
 				padding-top: 1em; }
 
-/* internal: traffic ligths */
-
-/* zzbrick_tables/buchungen.php */
-/* zzbrick_tables/participations.php */
-.ja, .nein, .vielleicht, .teilweise, .befreit
-				{ float: left; width: 1em; height: 1em; border: 1px solid black; 
-				margin-right: .5em; }
-.ja				{ background-color: green; }
-.nein			{ background-color: red; }
-.vielleicht		{ background-color: yellow; }
-.teilweise		{ background-color: black; }
-.befreit		{ background-color: cornflowerblue; }
-
 /* contact.template.txt */
 /* person.template.txt */
 .infomsg		{ background-color: green; color: white; font-weight: bold;
