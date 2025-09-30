@@ -460,21 +460,22 @@ table.data tbody tr:last-child
 /* login form */
 /* calendar: online registration */
 
+%%% include default/layout/login.css %%%
 #login, .application
 				{ max-width: 60em; margin: 0 auto; }
-.login label	{ display: block; float: left; width: 10em; }
-.login .submit	{ margin-left: 10em; }
-.login fieldset, fieldset.application
+#login fieldset, fieldset.application
 				{ background: #d6e4b3; max-width: 32em; border: none; }
 				/* @todo green, @todo stripes */
-.login legend, .application legend
+.application legend
 				{ background: #d6e4b3; padding: .25em .5em; }
-.login p, .application p
+.application p
 				{ padding: 0 .5em; clear: left; margin: .5em 0; }
-.login, .application
-				{ margin-top: 1.5em; }
-.logintext		{ float: right; max-width: 28em; padding: .5em 0 1em 2em; }
-
+.application	{ margin-top: 1.5em; }
+.logintext		{ float: right; max-width: 28em; padding: 0 0 1em 2em; }
+.logintext p	{ margin-top: 0;}
+@media screen and (max-width: 60rem) {
+	.logintext		{ float: none; padding: 1rem 0; }
+}
 
 /* internal area */
 
