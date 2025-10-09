@@ -269,8 +269,8 @@ p.error, div.error
 				{ border-top: none; padding-top: 0; }
 .events td p, .events th p
 				{ margin: 0; }
-.events ul, .events li
-				{ padding-top: 0; padding-bottom: 0; margin-top: 0; margin-bottom: 0;}
+.events ul, body .events li
+				{ padding: 0 .15rem; margin: 0 .5rem; }
 .events ins		{ color: #b73b53; } /* does not take place */
 .events th em	{ font-weight: normal; font-style: normal; } /* time */
 .events .anreisser
@@ -347,14 +347,13 @@ p.error, div.error
 }
 
 /* calendar: archive */
-
-.years			{ margin: 0; padding: 0; }
-.years li		{ list-style: none; float: left; border-left: 1px solid #CCC; 
+.events-years		{ margin: 0; padding: 0; }
+.events-years li	{ list-style: none; float: left; border-left: 1px solid #CCC; 
 				padding: 0 .5em; }
-.years li:first-child
+.events-years li:first-child
 				{ border-left: none; padding-left: 0; }
 @media screen and (max-width: 640px) {
-	.years			{ margin: 0 .75em; }
+	.events-years		{ margin: 0 .75em; }
 }
 
 /* calendar: info */
