@@ -39,10 +39,10 @@ dt			{ font-weight: bold; }
 	h1			{ font-size: 130%; padding: 0 .58em; }
 	h2			{ font-size: 120%; padding: 0 .625em; }
 	h3			{ padding: 0 .68em; }
-	dt			{ padding-left: .75em; }
+	dt			{ padding-left: 0; }
 	dd			{ padding: 0 0 0 2.25em; margin: 0; }
 	p, #text, dl, legend
-				{ padding: 0 .75em; }
+				{ padding: 0 .75rem; }
 	td p		{ padding: 0 0; }
 	p.teamphoto, p.logo-top, p#breadcrumbs, p.date, .costs p, p.logo2-top, p.logo-wide
 				{ padding: 0; }
@@ -343,7 +343,6 @@ p.error, div.error
 .wichtig		{ font-weight: bold; text-align: center; }
 @media screen and (max-width: 640px) {
 	.event .details table	{ margin: .75em }
-	body .event .info dd			{ margin-left: .75em; } 
 }
 
 /* calendar: archive */
@@ -421,7 +420,12 @@ p.error, div.error
 				{ max-width: 32em; }
 .event #anmeldung legend
 				{ font-weight: bold; padding: 0; }
-
+@media screen and (max-width: 640px) {
+	.event #anmeldung
+					{ padding: 0 .75rem;}
+	.event #anmeldung legend p
+					{ padding: 0; }
+}
 
 /* Bearbeiten */
 
@@ -626,7 +630,7 @@ body .results tbody td.reselect
 /* Feedback */
 
 @media screen and (max-width: 640px) {
-	textarea#feedback		{ margin: 0 .75em; max-width: 92%; }
+	textarea#feedback		{ margin: 0 .75rem; max-width: 92%; }
 	.feedback input			{ max-width: 98%; }
 }
 
@@ -647,12 +651,12 @@ body .results tbody td.reselect
 }
 
 @media screen and (max-width: 640px) {
-	h1			{ font-size: 130%; padding: 0 .58em; }
+	h1			{ font-size: 130%; padding: 0 .75rem; }
 	#map h1		{ color: #000; }
-	h2			{ font-size: 120%; padding: 0 .625em; }
-	h3			{ padding: 0 .68em; }
+	h2			{ font-size: 120%; padding: 0 .75rem; }
+	h3			{ padding: 0 .75rem; }
 	p, #text, dl, legend
-				{ padding: 0 .75em; }
+				{ padding: 0 .75rem; }
 	td p		{ padding: 0 0; }
 	p.teamphoto, p.logo-top, p#breadcrumbs, p.date, .costs p, p.logo-wide
 				{ padding: 0; }
