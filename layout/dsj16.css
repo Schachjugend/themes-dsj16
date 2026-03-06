@@ -464,13 +464,15 @@ table.data tbody tr:last-child
 /* calendar: online registration */
 
 %%% include default/layout/login.css %%%
+#login			{ --background-color-login: #d6e4b3; }
 #login, .application
 				{ max-width: 60em; margin: 0 auto; }
 #login fieldset, fieldset.application
-				{ background: #d6e4b3; max-width: 32em; border: none; }
-				/* @todo green, @todo stripes */
+				{ max-width: 32em; border: none; }
+fieldset.application, .application legend
+				{ background: #d6e4b3; }
 .application legend
-				{ background: #d6e4b3; padding: .25em .5em; }
+				{ padding: .25em .5em; }
 .application p
 				{ padding: 0 .5em; clear: left; margin: .5em 0; }
 .application	{ margin-top: 1.5em; }
